@@ -105,6 +105,28 @@ sudo systemctl status zabbix-server.service
 ![Снимок38](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/cea27f37-f3ac-47bb-9800-c186f8a179b5)
    
 
+Список использованных команд:
 
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-5+debian12_all.deb
+
+sudo dpkg -i zabbix-release_6.0-5+debian12_all.deb
+
+sudo apt update
+
+sudo apt install zabbix-agent
+
+sudo systemctl enable zabbix-agent
+
+systemctl status zabbix-agent.service
+
+sudo nano /etc/zabbix/zabbix_agentd.conf
+
+sudo systemctl restart zabbix-agent.service
+
+sudo systemctl status zabbix-agent.service
+
+sudo tail -f /var/log/zabbix/zabbix_agentd.log
+
+---
 
 
