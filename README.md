@@ -37,10 +37,28 @@
 
 Решение:
 
-   Установленный zabbix-server и авторизация в админке представлена на скриншоте ниже:
+ Установленный zabbix-server и авторизация в админке представлена на скриншоте ниже:
    
 
 ![Снимок33](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/01e435ef-625b-4ef9-99fa-86621059733d)
+
+Список использованных команд:
+
+sudo apt install postgresql
+
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-5+debian12_all.deb
+
+sudo dpkg -i zabbix-release_6.0-5+debian12_all.deb
+
+sudo apt update
+
+sudo apt install zabbix-server-pgsql zabbix-frontend-php php8.2-pgsql zabbix-apache-conf zabbix-sql-scripts
+
+sudo -u postgres createuser --pwprompt zabbix
+
+sudo -u postgres createdb -O zabbix zabbix
+
+zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
 
 
 ---
