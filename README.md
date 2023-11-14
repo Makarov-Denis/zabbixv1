@@ -94,6 +94,12 @@ sudo systemctl status zabbix-server.service
 
 Выполение задания представлены на скриншотах ниже:
 
+![Снимок34](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/21853cc9-5fb5-4bf8-87de-3f20312207cc)
+
+![Снимок35](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/9e616e09-d9c7-45c3-a336-555a478177f8)
+
+![Снимок36](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/38908600-9416-48a7-9096-024a11e9d7ec)
+
 
    
 
