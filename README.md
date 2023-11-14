@@ -60,6 +60,13 @@ sudo -u postgres createdb -O zabbix zabbix
 
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
 
+sudo nano /etc/zabbix/zabbix_server.conf
+
+sudo systemctl restart zabbix-server apache2
+
+sudo systemctl enable zabbix-server apache2
+
+sudo systemctl status zabbix-server.service
 
 ---
 
