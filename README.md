@@ -100,7 +100,9 @@ sudo systemctl status zabbix-server.service
 
 ![Снимок36](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/38908600-9416-48a7-9096-024a11e9d7ec)
 
+![Снимок37](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/4222f093-b0fd-4986-9193-bf1c7407a09e)
 
+![Снимок38](https://github.com/Makarov-Denis/zabbixv1/assets/148921246/cea27f37-f3ac-47bb-9800-c186f8a179b5)
    
 
 
